@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ef102534598634a54f0130cc1c67e44 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ef102534598634a54f0130cc1c67e44" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ef102534598634a54f0130cc1c67e44 = L.map(
+                "map_3ef102534598634a54f0130cc1c67e44",
+                {
+                    center: [51.5074, -0.1278],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68139d09160bb0f35356b1a909748efd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_68139d09160bb0f35356b1a909748efd.addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+            var marker_c1586a2773f0d3999526ff3c30570944 = L.marker(
+                [51.5014, -0.1419],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_57f5147d0010d63edfb54be58f4aad45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b0c52f6b5800d9c5b997bc7130d246a = $(`<div id="html_9b0c52f6b5800d9c5b997bc7130d246a" style="width: 100.0%; height: 100.0%;">Buckingham Palace</div>`)[0];
+                popup_57f5147d0010d63edfb54be58f4aad45.setContent(html_9b0c52f6b5800d9c5b997bc7130d246a);
+            
+        
+
+        marker_c1586a2773f0d3999526ff3c30570944.bindPopup(popup_57f5147d0010d63edfb54be58f4aad45)
+        ;
+
+        
+    
+    
+            var marker_fb72317d7333ebeabaf9c3ca1977c13d = L.marker(
+                [51.5033, -0.1426],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_bbc0f54a20040144a8a6b1a9fbeb5048 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a25faf6ef87d0d6325a54d4a1db04900 = $(`<div id="html_a25faf6ef87d0d6325a54d4a1db04900" style="width: 100.0%; height: 100.0%;">St. James’s Park</div>`)[0];
+                popup_bbc0f54a20040144a8a6b1a9fbeb5048.setContent(html_a25faf6ef87d0d6325a54d4a1db04900);
+            
+        
+
+        marker_fb72317d7333ebeabaf9c3ca1977c13d.bindPopup(popup_bbc0f54a20040144a8a6b1a9fbeb5048)
+        ;
+
+        
+    
+    
+            var marker_fc12661fee1ea78ed6e6f95400ff997b = L.marker(
+                [51.4992, -0.127],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_7790c5735650d2a4fd53a4f1e528b766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a1b13f1430e4a30283c56ab3e9d2c24 = $(`<div id="html_4a1b13f1430e4a30283c56ab3e9d2c24" style="width: 100.0%; height: 100.0%;">Westminster Abbey</div>`)[0];
+                popup_7790c5735650d2a4fd53a4f1e528b766.setContent(html_4a1b13f1430e4a30283c56ab3e9d2c24);
+            
+        
+
+        marker_fc12661fee1ea78ed6e6f95400ff997b.bindPopup(popup_7790c5735650d2a4fd53a4f1e528b766)
+        ;
+
+        
+    
+    
+            var marker_bd7d226d776cd53b78dc6b398d0203f7 = L.marker(
+                [51.5007, -0.1246],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_1e6b20fb1e3005d3568dcf3263ac73d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c576669d94931feca780e3ecadc73fd = $(`<div id="html_5c576669d94931feca780e3ecadc73fd" style="width: 100.0%; height: 100.0%;">Big Ben</div>`)[0];
+                popup_1e6b20fb1e3005d3568dcf3263ac73d1.setContent(html_5c576669d94931feca780e3ecadc73fd);
+            
+        
+
+        marker_bd7d226d776cd53b78dc6b398d0203f7.bindPopup(popup_1e6b20fb1e3005d3568dcf3263ac73d1)
+        ;
+
+        
+    
+    
+            var marker_aef4d1e6f47bc4f771b10ccafdc6398e = L.marker(
+                [51.5089, -0.1283],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_251a8dfc5e2cea5e0323d2d7245aa4cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a11846255742d00ffe90706cc2cb8391 = $(`<div id="html_a11846255742d00ffe90706cc2cb8391" style="width: 100.0%; height: 100.0%;">Trafalgar Square</div>`)[0];
+                popup_251a8dfc5e2cea5e0323d2d7245aa4cf.setContent(html_a11846255742d00ffe90706cc2cb8391);
+            
+        
+
+        marker_aef4d1e6f47bc4f771b10ccafdc6398e.bindPopup(popup_251a8dfc5e2cea5e0323d2d7245aa4cf)
+        ;
+
+        
+    
+    
+            var marker_b5f9a48166ffd50bbfdf72ee62984abd = L.marker(
+                [51.5089, -0.1283],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_d9782796c6e8313c56c411a39456c1ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c362d77977763defac5e33a8b442f6 = $(`<div id="html_a2c362d77977763defac5e33a8b442f6" style="width: 100.0%; height: 100.0%;">National Gallery</div>`)[0];
+                popup_d9782796c6e8313c56c411a39456c1ca.setContent(html_a2c362d77977763defac5e33a8b442f6);
+            
+        
+
+        marker_b5f9a48166ffd50bbfdf72ee62984abd.bindPopup(popup_d9782796c6e8313c56c411a39456c1ca)
+        ;
+
+        
+    
+    
+            var marker_84a2825801a043838485bdd210603988 = L.marker(
+                [51.512, -0.1229],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_fa76c00cc661ce28a9806eb10cb15911 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97081a0520b6414334675609e6607c9a = $(`<div id="html_97081a0520b6414334675609e6607c9a" style="width: 100.0%; height: 100.0%;">Covent Garden</div>`)[0];
+                popup_fa76c00cc661ce28a9806eb10cb15911.setContent(html_97081a0520b6414334675609e6607c9a);
+            
+        
+
+        marker_84a2825801a043838485bdd210603988.bindPopup(popup_fa76c00cc661ce28a9806eb10cb15911)
+        ;
+
+        
+    
+    
+            var marker_5b0cf501ee693070dce1d53f6c0205e7 = L.marker(
+                [51.511, -0.1281],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_0b532657d5f86542ade084dd2d81bcb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cdba3b6680a0b0e2193b8112376df4a = $(`<div id="html_2cdba3b6680a0b0e2193b8112376df4a" style="width: 100.0%; height: 100.0%;">Chinatown</div>`)[0];
+                popup_0b532657d5f86542ade084dd2d81bcb8.setContent(html_2cdba3b6680a0b0e2193b8112376df4a);
+            
+        
+
+        marker_5b0cf501ee693070dce1d53f6c0205e7.bindPopup(popup_0b532657d5f86542ade084dd2d81bcb8)
+        ;
+
+        
+    
+    
+            var marker_db24741c302223ff168ded40fa7dae62 = L.marker(
+                [51.5117, -0.1344],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_b23324829ff715410522e310798ef222 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_759c85035afe6bda081a9c639d648a12 = $(`<div id="html_759c85035afe6bda081a9c639d648a12" style="width: 100.0%; height: 100.0%;">Piccadilly Circus</div>`)[0];
+                popup_b23324829ff715410522e310798ef222.setContent(html_759c85035afe6bda081a9c639d648a12);
+            
+        
+
+        marker_db24741c302223ff168ded40fa7dae62.bindPopup(popup_b23324829ff715410522e310798ef222)
+        ;
+
+        
+    
+    
+            var marker_dea78b8fb61bbf769627ea459e2437b1 = L.marker(
+                [51.4967, -0.1764],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_8d2447b9e478ab62616fb81f5020f272 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_361df18080195c773b621f75b4916a74 = $(`<div id="html_361df18080195c773b621f75b4916a74" style="width: 100.0%; height: 100.0%;">Museo de Historia Natural</div>`)[0];
+                popup_8d2447b9e478ab62616fb81f5020f272.setContent(html_361df18080195c773b621f75b4916a74);
+            
+        
+
+        marker_dea78b8fb61bbf769627ea459e2437b1.bindPopup(popup_8d2447b9e478ab62616fb81f5020f272)
+        ;
+
+        
+    
+    
+            var marker_c101203c2e2e5da131fbf0443c5e2d4d = L.marker(
+                [51.4972, -0.1764],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_3595e356951e4d56ed585e7feb5a2291 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4c4708af97f7e7f350960c8b50c633f = $(`<div id="html_c4c4708af97f7e7f350960c8b50c633f" style="width: 100.0%; height: 100.0%;">Museo de Ciencias</div>`)[0];
+                popup_3595e356951e4d56ed585e7feb5a2291.setContent(html_c4c4708af97f7e7f350960c8b50c633f);
+            
+        
+
+        marker_c101203c2e2e5da131fbf0443c5e2d4d.bindPopup(popup_3595e356951e4d56ed585e7feb5a2291)
+        ;
+
+        
+    
+    
+            var marker_7761ca8b9b06e10227caf01d21a1cbc5 = L.marker(
+                [51.4962, -0.172],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_b3f84c92f4134c27d6021f427d07b82e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73c2315ee1c50af51325e6072bfbd31b = $(`<div id="html_73c2315ee1c50af51325e6072bfbd31b" style="width: 100.0%; height: 100.0%;">Victoria and Albert Museum</div>`)[0];
+                popup_b3f84c92f4134c27d6021f427d07b82e.setContent(html_73c2315ee1c50af51325e6072bfbd31b);
+            
+        
+
+        marker_7761ca8b9b06e10227caf01d21a1cbc5.bindPopup(popup_b3f84c92f4134c27d6021f427d07b82e)
+        ;
+
+        
+    
+    
+            var marker_db8d6d2cd41fee06198b6157d46415f7 = L.marker(
+                [51.5074, -0.195],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_c70720fed6e1b1790079f88cd7aa6939 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d4c7b18840f8b3b1075572fa934ff2 = $(`<div id="html_c3d4c7b18840f8b3b1075572fa934ff2" style="width: 100.0%; height: 100.0%;">Notting Hill</div>`)[0];
+                popup_c70720fed6e1b1790079f88cd7aa6939.setContent(html_c3d4c7b18840f8b3b1075572fa934ff2);
+            
+        
+
+        marker_db8d6d2cd41fee06198b6157d46415f7.bindPopup(popup_c70720fed6e1b1790079f88cd7aa6939)
+        ;
+
+        
+    
+    
+            var marker_9d88a2cc4ae715a0f84e27404c126d2f = L.marker(
+                [51.5072, -0.1657],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_8b237e06c89f129c02f0618f392b3599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6268bff2ee77a4f9df23bb3d2d2c876e = $(`<div id="html_6268bff2ee77a4f9df23bb3d2d2c876e" style="width: 100.0%; height: 100.0%;">Hyde Park</div>`)[0];
+                popup_8b237e06c89f129c02f0618f392b3599.setContent(html_6268bff2ee77a4f9df23bb3d2d2c876e);
+            
+        
+
+        marker_9d88a2cc4ae715a0f84e27404c126d2f.bindPopup(popup_8b237e06c89f129c02f0618f392b3599)
+        ;
+
+        
+    
+    
+            var marker_4cd7ace6fefc6d8405291b892da28ab7 = L.marker(
+                [51.506, -0.1944],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_4447487daf6de31dede8060eaa00ff3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8617b8768b4c60d17b364b975ee502ca = $(`<div id="html_8617b8768b4c60d17b364b975ee502ca" style="width: 100.0%; height: 100.0%;">Kensington Gardens</div>`)[0];
+                popup_4447487daf6de31dede8060eaa00ff3f.setContent(html_8617b8768b4c60d17b364b975ee502ca);
+            
+        
+
+        marker_4cd7ace6fefc6d8405291b892da28ab7.bindPopup(popup_4447487daf6de31dede8060eaa00ff3f)
+        ;
+
+        
+    
+    
+            var marker_7cd961f4d318269686c8e0d6b15fe699 = L.marker(
+                [51.5416, -0.1426],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_30d70d83beeeeab34bfdbce3422b2b10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d603ba7f7cbe2876dd732e1375bfdf = $(`<div id="html_43d603ba7f7cbe2876dd732e1375bfdf" style="width: 100.0%; height: 100.0%;">Camden Town</div>`)[0];
+                popup_30d70d83beeeeab34bfdbce3422b2b10.setContent(html_43d603ba7f7cbe2876dd732e1375bfdf);
+            
+        
+
+        marker_7cd961f4d318269686c8e0d6b15fe699.bindPopup(popup_30d70d83beeeeab34bfdbce3422b2b10)
+        ;
+
+        
+    
+    
+            var marker_379e14ed8df84441870767c55ec6ff7e = L.marker(
+                [51.5055, -0.0754],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_bd9164aa3fbdfeaafef1789111d1afb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35e7b767d0df78c7794fb09a26815b92 = $(`<div id="html_35e7b767d0df78c7794fb09a26815b92" style="width: 100.0%; height: 100.0%;">Tower Bridge</div>`)[0];
+                popup_bd9164aa3fbdfeaafef1789111d1afb0.setContent(html_35e7b767d0df78c7794fb09a26815b92);
+            
+        
+
+        marker_379e14ed8df84441870767c55ec6ff7e.bindPopup(popup_bd9164aa3fbdfeaafef1789111d1afb0)
+        ;
+
+        
+    
+    
+            var marker_0bcfe1cefbc1551407682722754ba54f = L.marker(
+                [51.5127, -0.0815],
+                {}
+            ).addTo(map_3ef102534598634a54f0130cc1c67e44);
+        
+    
+        var popup_d3044acc8104f576cd7922b641669872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0783dc1d436fb280ecb6fa7ee6bcede6 = $(`<div id="html_0783dc1d436fb280ecb6fa7ee6bcede6" style="width: 100.0%; height: 100.0%;">Sky Garden</div>`)[0];
+                popup_d3044acc8104f576cd7922b641669872.setContent(html_0783dc1d436fb280ecb6fa7ee6bcede6);
+            
+        
+
+        marker_0bcfe1cefbc1551407682722754ba54f.bindPopup(popup_d3044acc8104f576cd7922b641669872)
+        ;
+
+        
+    
+</script>
+</html>
